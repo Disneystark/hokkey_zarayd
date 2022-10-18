@@ -394,7 +394,7 @@ body {
   padding: 0;
 }
 
-li:first-child {
+.footer_li:first-child {
   padding-top: 24px;
   font-family: "Raleway";
   font-weight: 400;
@@ -402,7 +402,7 @@ li:first-child {
   line-height: 22px;
   color: #333333;
 }
-li:not(:nth-child(1)) {
+.footer_li:not(:nth-child(1)) {
   padding-top: 16px;
   font-family: "Raleway";
   font-weight: 400;
